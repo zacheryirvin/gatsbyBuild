@@ -29,7 +29,7 @@ const Header = () => {
         padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
       `}
     >
-      <NavLink to="/" activeClassName="current-page" fontWeight="bold">
+      <NavLink to="/" fontWeight="bold">
         {" "}
         Main Link{" "}
       </NavLink>

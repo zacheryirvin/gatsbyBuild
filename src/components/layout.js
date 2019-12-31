@@ -12,7 +12,6 @@ import Helmet from "react-helmet"
 
 import Header from "./header"
 import { useSiteMetaData } from "../hooks/siteMetaData.js"
-console.log(useSiteMetaData)
 
 const Layout = ({ children }) => {
   const { title, description } = useSiteMetaData()
